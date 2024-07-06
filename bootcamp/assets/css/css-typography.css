@@ -1,0 +1,75 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    background-color:blue;
+    color: aquamarine;
+    
+}
+
+.lighter{
+    font-weight: lighter;
+}
+
+.bold{
+     font-weight: bold;
+}
+
+.fontWeight-300{
+     font-weight:300;
+}
+.fontWeight-900{
+    font-weight:900;
+}
+
+.oblique{
+    font-family: sans-serif;
+    font-style: oblique;
+}
+.italic{
+    font-family: serif;
+    font-style: italic;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+
+.none{
+    text-decoration: none;
+    color: blueviolet;
+}
+.underline{
+    text-decoration: underline;
+}
+.overline{
+    text-decoration: overline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right
+}
+.center{
+    text-align: center;
+    text-shadow: -9px -9px 1px navy;
+}
+
+.indent-px{text-indent: 20px;}
+.indent-percent{text-indent: 20%;}
+.indent-em{text-indent: 2em;}
+
+.word{word-spacing: 15px ;}
+.letter{letter-spacing: 10px;}

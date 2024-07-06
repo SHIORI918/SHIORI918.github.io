@@ -1,0 +1,73 @@
+/* *{font-family: Arial, Helvetica, sans-serif;}
+
+
+
+.none{
+    list-style-type: none;
+    color:black;
+    text-decoration: none;}
+.none a{
+    color:black;
+    text-decoration: none;
+}
+.disc{list-style: disc;}
+.circle{list-style: circle;}
+.square{list-style-type: square;}
+.decimal{list-style-type: decimal;}
+.lower-alpha{list-style: lower-alpha;}
+.upper-alpha{list-style-type: upper-alpha;}
+.lower-roman{list-style: lower-roman;}
+.upper-roman{list-style-type: upper-roman;}
+
+.outside{
+    list-style-position: outside;
+}
+.inside{
+    list-style-position: inside;
+}
+.shorthand{
+    list-style: inside circle;
+} */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* unorder-list */
+.none{
+    list-style-type: none;
+}
+.none a{
+    color: black;
+    text-decoration: none;
+}
+.disc{
+    list-style-type: disc;
+}
+.circle{
+    list-style-type: circle;
+}
+.square{
+    list-style-type: square;
+}
+/* order-list */
+.decimal{
+    list-style-type: decimal;
+}
+.lower-alpha{
+    list-style-type: lower-alpha;
+}
+.upper-alpha{
+    list-style-type: upper-alpha;
+}
+.lower-roman{
+    list-style-type: lower-roman;
+}
+.upper-roman{
+    list-style-type: upper-roman;
+}
+/* list style position */
+.outside{
+    list-style-position: outside;
+}
+.inside{
+    list-style-position: inside;
+}

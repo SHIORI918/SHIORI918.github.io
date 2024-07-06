@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <!--Form Structure-->
+      <!--action=WHERE-->
+      <!--method=HOW=GET/POST-->
+      <form action="#"method="#">
+               <!--HTML FORMS-->
+               <h2>Input text and label</h2>
+               <label for="f-name">First Name: </label>
+               <!--placeholder=standby=only use it for type box form-->
+               <!--size=this changes the width of input type-->
+               <input type="text" name="f-name" id="f-name"
+               placeholder="please enter first name.."size="10"required>
+     <br>
+               <label for="1-name">Last Name:</label>
+               <input type="text" name="1-name" id="1-name"
+               placeholder="please enter last name.."size="30" repuired>
+     <hr>
+              <h2>PASSWORD</h2>
+              <label for="password">password:</label>
+              <input type="password" name="password"id="password"
+              placeholder="Enter password.." >   
+    <hr>
+    <!--indent/spacing=cmd{}-->
+         <h2>NUMBER</h2>
+         <label for="guest">How many guest?</label>
+         <!--min=minimun/smallest and max= maximun/biggest-->
+         <input type="number" name="guest"id="guest"min="1"max="10"
+         size="5">
+    <hr>
+        <h2>DATE</h2>
+        <!--creates calendar-->
+        <label for="bday">Birthday</label>
+        <input type="date"name="bday"id="bday">
+   <hr>
+         <h2>EMAIL</h2>
+         <label for="email">Email:</label>
+         <input type="email"name="email"id="email">
+    <hr>
+        <h2>TEXTAREA</h2>
+        <!--comments-->
+        <label for="comments">comment:</label>
+        <br>
+        <!--rows=height/tall-->
+        <!--cols=column wide-->
+        <textarea name="comments" id="comments"cols="30"rows="10"
+        placeholder="Enter commnet here please.."></textarea>
+    <hr>
+    <!-- radio button -->
+     <p>Please pick your favorite flower</p>
+     <input type="radio"name="flower"id="">
+     <label for="jasmine">Jasmine</label>
+
+     <input type="radio"name="flower"id="sunflower">
+     <label for="sunflower">Sunflower</label>
+<hr>
+    <h2>CHECKBOX</h2>
+    <input type="checkbox" name="snacks" id="mochi">
+    <label for="mochi">Mochi</label>
+
+    <input type="checkbox"name="snacks"id="potato-chips">
+    <label for="potato-chips">Potato Chips</label>
+
+    <input type="checkbox"name="snacks"id="pudding">
+    <label for="pudding">Pudding</label>
+<hr>
+    <h2>DROPDOWN LIST</h2>
+    <!-- It will show 1 options first -->
+    <label for="gadgets">What type of gadgets?</label>
+    <select name="gadgets" id="gadgets">
+         <option value="cellphone">Cellphone</option>
+         <option value="laptop">Laptop</option>
+         <option value="desktop">Desktop</option>
+     </select>
+<hr>
+      <h2>MULTIPLE LIST</h2>
+      <!-- It will show 4 options first -->
+      <label for="gadgets">What type of gadgets?</label>
+      <select name="gadgets" id="gadgets"multiple>
+           <option value="cellphone">Cellphone</option>
+           <option value="laptop">Laptop</option>
+           <option value="desktop">Desktop</option>
+           <option value="cellphone">Cellphone</option>
+           <option value="laptop">Laptop</option>
+           <option value="desktop">Desktop</option>
+       </select>
+<hr> 
+
+　　　　　<h2>FILE INPUT</h2>
+        <input type="file" name="file"id="file">
+ <hr>
+        <h2>BUTTONS</h2>
+        <button>Click Me Button</button>      
+        <input type="submit"value="click me input submit">
+        <br>
+        <input type="button" value="Input button">
+
+
+        
+    
+
+
+            </form>
+
+</body>
+</html>

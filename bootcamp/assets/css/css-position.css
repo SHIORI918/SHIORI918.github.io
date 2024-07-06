@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.navigation{
+     background-color: darkseagreen;
+     padding: 20px;
+     position: fixed;
+     top:0;
+     width:100%;
+     z-index:2;
+
+}
+
+
+.announcement{
+
+    position: relative;
+    background-color:orange;
+    height:400px;
+    border:3px solid red;
+    margin-top:20px;
+
+}
+
+.navigation h1{
+     position: relative;
+     left:10%;
+     width:90%;
+     border:3px solid blue;
+
+}
+
+.announcement h2{
+   position: absolute;
+   top:40%;
+   left:10%;
+   color: white;
+   text-transform: capitalize;
+   font-size: 60px;
+   font-family: Impact;
+   letter-spacing: 3px;
+   border:3px solid green;
+
+
+
+}
